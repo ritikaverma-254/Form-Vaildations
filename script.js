@@ -1,5 +1,5 @@
 // import required from "./helper.js";
-console.log('hello');
+
 
 
 const EmailRegex =
