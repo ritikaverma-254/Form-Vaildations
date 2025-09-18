@@ -1,0 +1,74 @@
+h2{
+    text-align : center; 
+}
+#main{
+    margin-left:210px;
+  
+    width: 750px;
+    border: 1px solid rgb(209, 203, 203);
+    padding: 20px;
+}
+
+#main:hover{
+ box-shadow: -1px 2px 8px 4px #c7c2c2;
+transition: box-shadow 0.5s ease-in-out;
+}
+
+
+#address{
+    padding: 10px 10px 0 10px;
+    margin-top: 15px;
+    border: 1px solid rgb(220, 214, 214);
+}
+#addressErr{
+    position: relative;
+    bottom:10px;
+}
+#detailAdd{
+    
+    display: flex;
+    gap:5px;
+}
+#img{
+    margin-bottom: 10px;
+}
+
+#dobErr,#contactErr{
+
+     color: red;
+    font-size: 11px;
+}
+#firstNameErr,#lastNameErr,#emailErr,#stdIdErr,#previewErr{
+     position: relative; 
+     bottom: 15px; 
+     color: red;
+    font-size: 11px;
+}
+#addressErr,#genderErr{
+    color: red;
+    font-size: 11px; 
+}
+
+
+.genderPos{
+       position: relative;
+    /* bottom: 15px; */
+    color: red;
+    font-size: 11px;
+}
+#preview{
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid rgb(205, 197, 197);
+    box-shadow: 2px rgb(205, 197, 197);
+    margin-bottom: 20px;
+   
+}
+#phoneDate{
+    margin-bottom: 10px;
+}
+#terms-con{
+    margin: 10px 0 5px 0;
+}
+
