@@ -1,3 +1,5 @@
+//console.log('hello')
+
 //  const required = function(fieldName,error){
 //     if(fieldName.value==''){
 //         error.textContent =  '*Required';
